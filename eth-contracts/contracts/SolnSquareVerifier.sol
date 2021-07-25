@@ -29,18 +29,15 @@ contract SolnSquareVerifier is ERC721Mintable {
     event AddedSolution(uint256 index, address account);
 
     // TODO Create a function to add the solutions to the array and emit the event
-     function addSolution (uint256 index, address account, bytes32 key) public {
+     function addSolution (uint256 index, address account, bytes32 key) internal {
          uniqueSolutions[key] = Solution({index: index, owner: account});
          solutions.push(uniqueSolutions[key]);
 
          emit AddedSolution(index, account);
      }
 
-     function getSolution (bytes32 key) public view returns (bool) {
-        if(uniqueSolutions[key].owner != address(0)) {
-            return true;
-        }
-        return false;
+     function getSolution (bytes32 key) public view returns (address) {
+        return uniqueSolutions[key].owner;
      }
 
      function generateKey (uint[2] memory a, uint[2][2] memory b, uint[2] memory c, uint[2] memory input) public pure returns (bytes32) {
