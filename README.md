@@ -24,8 +24,6 @@ The capstone will build upon the knowledge you have gained in the course in orde
 > Compiled successfully using:
    - solc: 0.5.16+commit.9c3226ce.Emscripten.clang
 
-
-
   Contract: TestERC721Mintable
     match erc721 spec
       ✓ should return total supply (53ms)
@@ -58,16 +56,7 @@ The capstone will build upon the knowledge you have gained in the course in orde
 ---
 
 - transaction hash: 0x15ec31a1047f6908c96271e22a36301a8c944efbf7239c7afa440871e24f67aa
-- Blocks: 1 Seconds: 26
 - contract address: 0x6eEc3f9314EC493080e7678EfF3785532361cA03
-- block number: 9000086
-- block timestamp: 1627239988
-- account: 0x081D87c859354f5b81dB20730Cf190A78c688083
-- balance: 18.6713187
-- gas used: 967415 (0xec2f7)
-- gas price: 10 gwei
-- value sent: 0 ETH
-- total cost: 0.00967415 ETH
 
 ---
 
@@ -76,36 +65,23 @@ The capstone will build upon the knowledge you have gained in the course in orde
 ---
 
 - transaction hash: 0xd503bd358629d32c912a0b373d8e8ebd184c53fb525490bd96a1bccf0dc4506c
-- Blocks: 2 Seconds: 32
 - contract address: 0xE4A2ee3Fc8b5C2D75A856377CC73A064A93D8d7A
-- block number: 9000092
-- block timestamp: 1627240078
-- account: 0x081D87c859354f5b81dB20730Cf190A78c688083
-- balance: 18.63594476
-- gas used: 3537394 (0x35f9f2)
-- gas price: 10 gwei
-- value sent: 0 ETH
-- total cost: 0.03537394 ETH
 
 ---
 
 ## Contract ABI
 
-### 1. Verifier
-
 - [verifier ABI](https://github.com/lavikara/real-estate-marketplace/blob/master/eth-contracts/artefacts/verifier.json)
-
-### 2. SolnSquareVerifier
 
 - [solnSquareVerifier ABI](https://github.com/lavikara/real-estate-marketplace/blob/master/eth-contracts/artefacts/solnSquareVerifier.json)
 
-## Contract address on rinkeby
+## Opensea marketplace
 
 - [Opensea market place](https://testnets.opensea.io/collection/lavi-token-v2)
 
 ## Transactions on rinkeby
 
-![truffle test](images/transactions.png)
+![truffle test](eth-contracts/images/transactions.png)
 
 # Project Resources
 
