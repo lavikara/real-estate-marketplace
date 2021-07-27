@@ -14,7 +14,37 @@ The capstone will build upon the knowledge you have gained in the course in orde
   }
 ```
 
+### Install dependencies
+
+```
+npm install
+```
+
+### Project directory
+
+```
+cd eth-contracts
+```
+
+### Compile contract
+
+```
+truffle compile
+```
+
+### Deploy contract to local blockchain
+
+```
+truffle migrate
+```
+
 ### Test Contract
+
+```
+truffle test
+```
+
+### Test Results
 
 ```
 > Compiling ./contracts/ERC721Mintable.sol
@@ -53,16 +83,12 @@ The capstone will build upon the knowledge you have gained in the course in orde
 
 ### 1. Verifier
 
----
-
 - transaction hash: 0x15ec31a1047f6908c96271e22a36301a8c944efbf7239c7afa440871e24f67aa
 - contract address: 0x6eEc3f9314EC493080e7678EfF3785532361cA03
 
 ---
 
 ### 2. SolnSquareVerifier
-
----
 
 - transaction hash: 0xd503bd358629d32c912a0b373d8e8ebd184c53fb525490bd96a1bccf0dc4506c
 - contract address: 0xE4A2ee3Fc8b5C2D75A856377CC73A064A93D8d7A
