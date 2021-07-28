@@ -2,18 +2,6 @@
 
 The capstone will build upon the knowledge you have gained in the course in order to build a decentralized housing product.
 
-### Libaries
-
-```
-  "dependencies": {
-    "dotenv": "^10.0.0",
-    "openzeppelin-solidity": "^2.2.0",
-    "solc": "^0.5.2",
-    "solc-js": "^0.5.2",
-    "truffle-hdwallet-provider": "^1.0.17"
-  }
-```
-
 ### Install dependencies
 
 ```
@@ -105,9 +93,25 @@ truffle test
 
 - [Opensea market place](https://testnets.opensea.io/collection/lavi-token-v2)
 
-## Transactions on rinkeby
+## Mint transactions on rinkeby etherscan
 
 ![truffle test](eth-contracts/images/transactions.png)
+
+## Buy transactions on rinkeby etherscan
+
+![truffle test](eth-contracts/images/transfer_transactions.png)
+
+### Libaries
+
+```
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "openzeppelin-solidity": "^2.2.0",
+    "solc": "^0.5.2",
+    "solc-js": "^0.5.2",
+    "truffle-hdwallet-provider": "^1.0.17"
+  }
+```
 
 # Project Resources
 
